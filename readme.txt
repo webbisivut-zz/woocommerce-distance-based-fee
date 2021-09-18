@@ -13,8 +13,6 @@ This plugin uses Google Matrix API to add custom fee based on distance between c
 
 See installation instructions here: https://web-data.online/docs/woocommerce-distance-based-fee
 
-If you are looking for a shipping method with distance based fee support, then use <a target="_blank" href="https://wordpress.org/plugins/webdata-custom-shipping-methods-for-woocommerce/">this plugin</a> instead.
-
 Works with any currency and you can use either kilometers or miles.
 
 You can use different logics, based on minimum and maximum distance or minimun cart price. Also fixed fee is available if the conditions are not met and you can disable the fee on virtual products. If you need to create your own logic, the filters to be used can be found here: <a target="_blank" href="https://web-data.online/docs/woocommerce-distance-based-fee/">https://web-data.online/docs/woocommerce-distance-based-fee/</a>
@@ -30,8 +28,6 @@ This plugin requires WooCommerce version 3.2.0 or later.
 
 == Installation ==
 
-Installing "WooCommerce distance based fee" can be done either by searching for "WooCommerce distance based fee" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
-
 1. Download the plugin
 2. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
 3. Activate the plugin through the 'Plugins' menu in WordPress
@@ -41,7 +37,7 @@ Installing "WooCommerce distance based fee" can be done either by searching for 
 
 = I can not see any fee on my checkout =
 
-1) Google has changed their policy, and now you need to have a billing account enabled, in order to use their API. More info: <a href="https://console.cloud.google.com/project/_/billing/enable" target="_blank">https://console.cloud.google.com/project/_/billing/enable</a> 
+1) Google has changed their policy, and now you need to have a billing account enabled, in order to use their API. More info: https://console.cloud.google.com/project/_/billing/enable
 
 2) Check your plugin settings, you need to have enabled atleast one shipping method for the fee.
 
@@ -54,8 +50,6 @@ Installing "WooCommerce distance based fee" can be done either by searching for 
 6) Make sure you have enabled correct API. Try to enable the following APIs: Distance Matrix API, Places API for Web, Google Maps Geocoding API
 
 7) Try to generate new API key and do NOT choose restricted mode.
-
-8) If you still have issues, contact through the <a href="https://wordpress.org/support/plugin/woo-distance-based-fee/">Support forum</a>.
 
 = My settings does not take effect on checkout page =
 
