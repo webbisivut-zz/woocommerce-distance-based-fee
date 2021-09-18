@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Distance Based Fee\n"
+"POT-Creation-Date: 2020-01-10 16:22+0700\n"
+"PO-Revision-Date: 2020-01-10 16:25+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-distance-based-fee.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:70
+#: includes/class-woocommerce-distance-based-fee-settings.php:99
+#: includes/class-woocommerce-distance-based-fee-settings.php:305
+msgid "Distance based fee settings"
+msgstr "Etäisyyteen perustuvan kulun asetukset"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:123
+msgid "Standard"
+msgstr "Yleiset"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:124
+msgid "Standard settings"
+msgstr "Yleiset asetukset"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:128
+msgid "Google API key"
+msgstr "Google API avain"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:129
+msgid ""
+"Enter your Google API key in this field. You can get your API key <a target="
+"\"_blank\" href=\"https://developers.google.com/maps/documentation/"
+"javascript/get-api-key\">from here.</a>"
+msgstr ""
+"Anna Google API avain tähän kenttään. API avaimen saat haettua<a "
+"target=”_blank” href=”https://developers.google.com/maps/documentation/"
+"javascript/get-api-key”>täältä.</a>"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:136
+msgid "Fee name"
+msgstr "Kulun nimi"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:137
+msgid "Enter name for the fee that customer will see on checkout."
+msgstr "Anna kulun nimi jonka asiakas näkee kassalla."
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:144
+msgid "Divider"
+msgstr "Jakaja"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:145
+msgid ""
+"Enter your divider number here. Price will be calculated by dividing the "
+"distance, and then multiplicated by the price."
+msgstr ""
+"Anna jakaja. Hinta lasketaan jakamalla etäisyys jakajalla, ja kertomalla "
+"saatu luku hinnalla."
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:152
+msgid "Price"
+msgstr "Hinta"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:153
+msgid "Enter your price for the calculated distance."
+msgstr "Anna hinta lasketulle etäisyydelle."
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:160
+msgid "Minimun distance"
+msgstr "Lyhin etäisyys"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:161
+msgid ""
+"Enter the distance after the fee will be added. Leave empty to disable this "
+"feature."
+msgstr ""
+"Anna lyhietäisyys jonka jälkeen kulu lisätään. Jätä tyhjäksi jos haluat "
+"poistaa tämän toiminnon."
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:168
+msgid "Maximum distance"
+msgstr "Pisin etäisyys"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:169
+msgid ""
+"Enter the maximum distance for the shipping method, that can be used with "
+"the fee. Leave empty to disable this feature."
+msgstr ""
+"Anna pisin etäisyys johonka asti kulu lisätään. Jätä tyhjäksi jos haluat "
+"poistaa tämän toiminnon."
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:176
+msgid "Units"
+msgstr "Yksiköt"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:177
+msgid "Choose your units for the calculated distance."
+msgstr "Valitse yksikkö lasketulle etäisyydelle."
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:184
+msgid "Methods"
+msgstr "Toimitustavat"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:185
+msgid "Choose which shipping methods this fee is added for."
+msgstr "Valitse mille toimitustavoille kulu on käytössä."
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:193
+msgid "Shipping conditions"
+msgstr "Toimitusehdot"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:194
+msgid "If above conditions are not met, what will happen to the shipping?"
+msgstr "Jos asetetut ehdot eivät täyty, mitä tehdään toimitukselle?"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:201
+msgid "Fixed fee"
+msgstr "Kiinteä hinta"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:202
+msgid ""
+"If above conditions are not met, fixed fee can be used. Leave empty to "
+"disable this feature."
+msgstr ""
+"Jos annetut ehdot eivät täyty, voidaan käyttää kiinteää hintaa. Jätä "
+"tyhjäksi jos et halua käyttää tätä toimintoa."
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:209
+msgid "Taxable"
+msgstr "Verotus"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:210
+msgid "Is fee taxable?"
+msgstr "Onko kulu verotettava?"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:212
+msgid "No"
+msgstr "Ei"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:212
+msgid "Yes"
+msgstr "Kyllä"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:217
+msgid "Disable virtual products"
+msgstr "Poista käytöstä virtuaalisille tuotteille"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:218
+msgid "Disable on virtual products?"
+msgstr "Poistetaanko kulu käytöstä virtuaalisille tuotteille?"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:227
+msgid "Logs"
+msgstr "Logit"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:228
+msgid "Plugin log file"
+msgstr "Logi tiedosto"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:232
+msgid "Google API log"
+msgstr "Google API logi"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:233
+msgid ""
+"If your fee won´t work, you can check if Google API has given any error "
+"messages."
+msgstr "Jos kulu ei näy, tarkista onko rajapinta antanut virheilmoituksia."
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:357
+msgid "Save Settings"
+msgstr "Tallenna asetukset"
+
+#: includes/class-woocommerce-distance-based-fee-settings.php:388
+#: includes/class-woocommerce-distance-based-fee-settings.php:397
+#: includes/class-woocommerce-distance-based-fee.php:157
+#: includes/class-woocommerce-distance-based-fee.php:166
+msgid "Cheatin&#8217; huh?"
+msgstr "Huijaatko?"
+
+#: includes/lib/class-woocommerce-distance-based-fee-admin-api.php:172
+msgid "Upload an image"
+msgstr "Lisää kuva"
+
+#: includes/lib/class-woocommerce-distance-based-fee-admin-api.php:172
+msgid "Use image"
+msgstr "Käytä kuvaa"
+
+#: includes/lib/class-woocommerce-distance-based-fee-admin-api.php:172
+msgid "Upload new image"
+msgstr "Lisää uusi kuva"
+
+#: includes/lib/class-woocommerce-distance-based-fee-admin-api.php:173
+msgid "Remove image"
+msgstr "Poista kuva"
+
+#~ msgid "WooCommerce Distance Based Fee"
+#~ msgstr "WooCommerce etäisyyteen perustuva kulu"
+
+#~ msgid "https://www.webbisivut.org/"
+#~ msgstr "https://www.webbisivut.org/"
+
+#~ msgid "This plugin adds fee based on distance"
+#~ msgstr "Lisäosa joka asettaa kulun perustuen laskettuun etäisyyteen"
+
+#~ msgid "Webbisivut.org"
+#~ msgstr "Webbisivut.org"
+
+#~ msgid "https://www.webbisivut.org"
+#~ msgstr "https://www.webbisivut.org"
