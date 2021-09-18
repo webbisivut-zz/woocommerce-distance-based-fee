@@ -6,7 +6,7 @@
  * Description: This plugin adds fee based on distance
  * Author: web-data.online
  * Requires at least: 4.0
- * Tested up to: 5.7
+ * Tested up to: 5.8.1
  *
  * Text Domain: woocommerce-distance-based-fee
  * Domain Path: /lang/

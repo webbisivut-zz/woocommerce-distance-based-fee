@@ -2,7 +2,7 @@
 Contributors: webdata
 Tags: woocommerce, plugin, custom fee, distance, google, matrix, api
 Requires at least: 4.0
-Tested up to: 5.7
+Tested up to: 5.8.1
 Stable tag: 1.1.15
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This plugin uses Google Matrix API to add custom fee based on distance between customers destination city and online stores location. Fee will be calculated by dividing the distance with user entered divider, and then multiplicated by the price. For example, if distance is 100km and the divider is 2 and price is 5 euros (Fee will be 5 euros for every 2 kilometers). The calculation formula will be (100 / 2) * 5 = 250 euros. 
 
-<a target="_blank" href="https://web-data.online/docs/woocommerce-distance-based-fee">Installation instructions here.</a>
+See installation instructions here: https://web-data.online/docs/woocommerce-distance-based-fee
 
 If you are looking for a shipping method with distance based fee support, then use <a target="_blank" href="https://wordpress.org/plugins/webdata-custom-shipping-methods-for-woocommerce/">this plugin</a> instead.
 
@@ -21,10 +21,10 @@ You can use different logics, based on minimum and maximum distance or minimun c
 
 Plugin settings can be found at Settings - Distance based fee settings. 
 
-You need to have a Google API key in order to use this plugin. More info: <a href="http://tiny.cc/aab75y" target="_blank">http://tiny.cc/aab75y</a>
+You need to have a Google API key in order to use this plugin. More info: http://tiny.cc/aab75y
 
-Google now also requires billing to be enabled for your account. Enable it here: <a href="https://console.cloud.google.com/project/_/billing/enable" target="_blank">https://console.cloud.google.com/project/_/billing/enable</a> 
-More info: <a href="https://developers.google.com/maps/premium/new-plan-migration" target="_blank">https://developers.google.com/maps/premium/new-plan-migration</a>
+Google now also requires billing to be enabled for your account. Enable it here: https://console.cloud.google.com/project/_/billing/enable
+More info: https://developers.google.com/maps/premium/new-plan-migration
 
 This plugin requires WooCommerce version 3.2.0 or later.
 
@@ -32,7 +32,7 @@ This plugin requires WooCommerce version 3.2.0 or later.
 
 Installing "WooCommerce distance based fee" can be done either by searching for "WooCommerce distance based fee" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
 
-1. Download the plugin via WordPress.org
+1. Download the plugin
 2. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
 3. Activate the plugin through the 'Plugins' menu in WordPress
 4. Adjust settings at: Settings - Distance based fee settings
