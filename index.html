@@ -21,11 +21,86 @@
 		</div>
 	</header>
 	<!-- END HEADER | the header element in new to HTML5 -->
-		<div class="main">
-			<h2>Installation</h2>
-      <p>Download plugin here: <a target="_blank" href="https://github.com/webbisivut/woocommerce-distance-based-fee">https://github.com/webbisivut/woocommerce-distance-based-fee</a></p>
-      <p>On your WordPress dashboard, choose Plugins – Add new.</p>
-    </div>
+    <div class="main">
+      <h2 id="installation">Installation</h2>
+
+
+
+<p>Download plugin here: <a href="https://github.com/webbisivut/woocommerce-distance-based-fee" target="_blank" rel="noreferrer noopener">https://github.com/webbisivut/woocommerce-distance-based-fee</a></p>
+
+
+
+<p>On your WordPress dashboard, choose<em> Plugins – Add new.</em></p>
+
+
+
+<h2 id="google-distance-matrix-api-key">Google Distance Matrix API key</h2>
+
+
+
+<p>In order to use the plugin, you need to have a Google Account and you need to generate Google Distance Matrix API key. You also need to have following APIs enabled:</p>
+
+
+
+<ul><li>Distance Matrix API</li><li>Places API for Web</li><li>Google Maps Geocoding API</li></ul>
+
+
+
+<p>Instructions how to enable APIs can be found here:<br><a href="https://support.google.com/googleapi/answer/6158841?hl=en" target="_blank" rel="noreferrer noopener">https://support.google.com/googleapi/answer/6158841?hl=en</a></p>
+
+
+
+<p>Instructions to get the API key can be found here: <a href="https://developers.google.com/maps/documentation/distance-matrix/get-api-key" target="_blank" rel="noreferrer noopener">https://developers.google.com/maps/documentation/distance-matrix/get-api-key</a></p>
+
+
+
+<p><strong>Please note</strong>, you also need to have billing enabled in order to use the Google Matrix API. To enable billing, please visit here: <a rel="noreferrer noopener" href="https://console.cloud.google.com/project/_/billing/enable" target="_blank">https://console.cloud.google.com/project/_/billing/enable</a></p>
+
+
+
+<p>Once you have generated your API key, go to the plugin settings: “Settings – Distance based fee settings” and paste your API key to the “Google API key” field and save settings. After this configure rest of the settings as you wish.</p>
+
+
+
+<h2 id="settings">Settings</h2>
+
+
+
+<p>Choose “Settings – Distance based fee settings” on your WordPress Dashboard to open the plugin settings page.</p>
+
+
+
+<p>On the main settings page, you need to enter the <strong>Google Matrix API key</strong>. After that you can set fee name, divider, price, units and shipping methods which your distance based fee is used for.</p>
+
+
+
+<h2 id="developers">Developers</h2>
+
+
+
+<p>Fee can also be manipulated by <em>dbf_calculated_fee </em>filter hook, which takes 4 parameters: $calculatedFee, $kiloMeters, $divider and $price.</p>
+
+
+
+<p>The hook function would look something like this:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>function my_dbf_calculated_fee_callback( $calculatedFee, $kiloMeters, $divider, $price ) {<br>if($kiloMeters &lt; 10) {<br>// Do something<br>} else {<br>// Do something else<br>}</p><p>return $calculatedFee;<br>}<br>add_filter( ‘dbf_calculated_fee’, ‘my_dbf_calculated_fee_callback’, 10, 4 );</p></blockquote>
+
+
+
+<p>You can also manipulate the starting address, e.g. in case you want the distance to be calculated on different starting points. Hooks are: <em>dbf_origin_city_filter</em>, <em>dbf_origin_zip_filter</em> and <em>dbf_origin_address_filter</em>.</p>
+
+
+
+<p>The hook function would look something like this:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>function my_dbf_calculated_fee_callback( $originAddress ) {</p><p>$originAddress = ”1234 Fake Street;</p><p>return $originAddress;<br>}<br>add_filter( ‘dbf_origin_address_filter’, ‘my_dbf_calculated_fee_callback’, 10, 1 );</p></blockquote>
+
+   </div>
 	<footer>
 		&copy; WebData Oy, All Rigts Reserved.
 	</footer>
